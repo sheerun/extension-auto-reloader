@@ -1,0 +1,27 @@
+{
+   "manifest_version": 2,
+   "name": "Auto Extension Reloader",
+   "background": {
+      "page": "background.html"
+   },
+   "browser_action": {
+      "default_icon": "icon19.png",
+      "default_title": "Auto Extension Reloader"
+   },
+   "description": "Reload all development extension on page refresh",
+   "icons": {
+      "128": "icon128.png",
+      "16": "icon16.png",
+      "48": "icon48.png"
+   },
+   "permissions": [ 
+      "tabs",
+      "management",
+      "webRequest",
+      "webRequestBlocking",
+      "webNavigation",
+      "http://reload.extensions/"
+   ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "1.0"
+}
